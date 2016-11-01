@@ -1,0 +1,52 @@
+﻿<Window x:Class="FragileCarsMenu.MainMenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FragileCarsMenu"
+        mc:Ignorable="d"
+        Title="Fragile Carz" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="startGameButton" Content="Start Game" HorizontalAlignment="Center" Margin="210,236,228.4,0" VerticalAlignment="Top" Width="80" Click="startGameButton_Click"/>
+        <GroupBox x:Name="settings" Header="Settings" HorizontalAlignment="Left" Margin="323,10,0,0" VerticalAlignment="Top" Height="289" Width="185">
+            <Grid Margin="0,0,-2.2,-0.2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="89*"/>
+                    <ColumnDefinition Width="86*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="frictionLabel" Content="Friction: " HorizontalAlignment="Center" Margin="10,50,52,0" VerticalAlignment="Top" Width="113" Grid.ColumnSpan="2"/>
+                <CheckBox x:Name="debugEnabled" Content="Debug Mode" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                <CheckBox x:Name="fullscreen" Content="Fullscreen" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top"/>
+                <CheckBox x:Name="skidmarksEnabled" Content="Skidmarks" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top"/>
+                <CheckBox x:Name="smokeEnabled" Content="Smoke" HorizontalAlignment="Left" Margin="11,144,0,0" VerticalAlignment="Top"/>
+                <Slider x:Name="friction" HorizontalAlignment="Left" Margin="12,76,0,0" VerticalAlignment="Top" Width="153" Maximum="100" ValueChanged="friction_ValueChanged" Grid.ColumnSpan="2"/>
+            </Grid>
+        </GroupBox>
+        <Grid Margin="0,10,335.4,31.8">
+            <GroupBox x:Name="greencarBox" Header="Green Car" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Top" Height="67" Width="138">
+                <Grid Margin="0,0,-0.4,0">
+                    <CheckBox x:Name="greenActive" Content="Active" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Click="carActive_Clicked"/>
+                    <CheckBox x:Name="greenPlayer" Content="Player Controlled" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="redcarBox" Header="Red Car" HorizontalAlignment="Left" Margin="20,134,0,0" VerticalAlignment="Top" Height="67" Width="138">
+                <Grid Margin="0,0,-0.4,0">
+                    <CheckBox x:Name="redActive" Content="Active" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Click="carActive_Clicked"/>
+                    <CheckBox x:Name="redPlayer" Content="Player Controlled" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="yellowcarBox" Header="Yellow Car" HorizontalAlignment="Left" Margin="20,67,0,0" VerticalAlignment="Top" Height="67" Width="138">
+                <Grid>
+                    <CheckBox x:Name="yellowActive" Content="Active" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Click="carActive_Clicked"/>
+                    <CheckBox x:Name="yellowPlayer" Content="Player Controlled" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="bluecarBox" Header="Blue Car" HorizontalAlignment="Left" Margin="20,201,0,0" VerticalAlignment="Top" Height="67" Width="138">
+                <Grid Margin="0,0,-0.4,0">
+                    <CheckBox x:Name="blueActive" Content="Active" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Click="carActive_Clicked"/>
+                    <CheckBox x:Name="bluePlayer" Content="Player Controlled" HorizontalAlignment="Left" Margin="10,25,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\bin\Debug\FragileCarsMenu.exe.config
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\bin\Debug\FragileCarsMenu.exe
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\bin\Debug\FragileCarsMenu.pdb
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.csprojResolveAssemblyReference.cache
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\MainWindow.g.cs
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\App.g.cs
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu_MarkupCompile.cache
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu_MarkupCompile.lref
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\MainWindow.baml
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.g.resources
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.Properties.Resources.resources
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.csproj.GenerateResource.Cache
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.exe
+C:\Users\pontu\Documents\Programmering\C#\FragileCarsMenu\FragileCarsMenu\obj\Debug\FragileCarsMenu.pdb
