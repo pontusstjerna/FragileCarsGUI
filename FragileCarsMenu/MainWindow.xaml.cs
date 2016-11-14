@@ -44,6 +44,9 @@ namespace FragileCarsMenu
             friction.Value = 30;
             frictionLabel.Content = "Friction: " + 30;
 
+            lapLabel.Content += laps.ToString();
+            lapScroll.Value = 1;
+
             greenActive.IsChecked = true;
             greenPlayer.IsChecked = true;
 
@@ -150,6 +153,18 @@ namespace FragileCarsMenu
         private void carActive_Clicked(object sender, RoutedEventArgs e)
         {
             setCarBoxes();
+        }
+
+        private void lapScroll_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            const int stdValue = 1;
+
+            if (lapScroll.Value < stdValue) laps++;
+            else if(lapScroll.Value > stdValue && laps > 1) laps--;
+
+            lapScroll.Value = stdValue;
+
+            lapLabel.Content = "Laps: " + laps;
         }
     }
 }
